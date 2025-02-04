@@ -1,0 +1,34 @@
+/* Pour les carrés */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0; /* Supprime tout espace interne */
+  margin: 0; /* Supprime tout espace externe */
+}
+
+/* Pour les lignes du plateau */
+.board-row {
+  display: flex; /* Dispose les carrés horizontalement */
+}
+
+/* Pour le conteneur du plateau */
+.game-board {
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* Supprime tout écart vertical entre les lignes */
+}
+
+/* Texte du statut */
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
